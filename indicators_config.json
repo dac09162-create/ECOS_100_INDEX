@@ -3,226 +3,226 @@
     {
       "sector": "시장금리",
       "indicators": [
-        {"name": "한국은행 기준금리",        "stat_code": "722Y001", "item_code": "0101000",   "cycle": "M"},
-        {"name": "콜금리(익일물)",            "stat_code": "817Y002", "item_code": "010102000", "cycle": "D"},
-        {"name": "통안증권수익률(364일)",     "stat_code": "817Y002", "item_code": "010400001", "cycle": "D"},
-        {"name": "국고채수익률(3년)",         "stat_code": "817Y002", "item_code": "010200000", "cycle": "D"},
-        {"name": "국고채수익률(5년)",         "stat_code": "817Y002", "item_code": "010200001", "cycle": "D"},
-        {"name": "회사채수익률(3년,AA-)",     "stat_code": "817Y002", "item_code": "010400000", "cycle": "D"},
-        {"name": "회사채수익률(3년,AA-)",     "stat_code": "817Y002", "item_code": "010400000", "cycle": "D"}
+        {"name": "한국은행 기준금리/월별",        "stat_code": "722Y001", "item_code": "0101000",   "cycle": "M"},
+        {"name": "콜금리(익일물)/일별",            "stat_code": "817Y002", "item_code": "010102000", "cycle": "D"},
+        {"name": "통안증권수익률(364일)/일별",     "stat_code": "817Y002", "item_code": "010400001", "cycle": "D"},
+        {"name": "국고채수익률(3년)/일별",         "stat_code": "817Y002", "item_code": "010200000", "cycle": "D"},
+        {"name": "국고채수익률(5년)/일별",         "stat_code": "817Y002", "item_code": "010200001", "cycle": "D"},
+        {"name": "회사채수익률(3년,AA-)/일별",     "stat_code": "817Y002", "item_code": "010400000", "cycle": "D"},
+        {"name": "회사채수익률(3년,AA-)/일별",     "stat_code": "817Y002", "item_code": "010400000", "cycle": "D"}
       ]
     },
     {
       "sector": "환율",
       "indicators": [
-        {"name": "원/달러 환율",              "stat_code": "731Y001", "item_code": "0000001",   "cycle": "D"},
-        {"name": "원/100엔 환율",             "stat_code": "731Y001", "item_code": "0000002",   "cycle": "D"},
-        {"name": "원/유로 환율",             "stat_code": "731Y001", "item_code": "0000003",   "cycle": "D"},
-        {"name": "원/위안 환율",             "stat_code": "731Y001", "item_code": "0000053",   "cycle": "D"},
-        {"name": "외환보유액",             "stat_code": "732Y001", "item_code": "99",   "cycle": "Q"}      ]
+        {"name": "원/달러 환율/일별",              "stat_code": "731Y001", "item_code": "0000001",   "cycle": "D"},
+        {"name": "원/100엔 환율/일별",             "stat_code": "731Y001", "item_code": "0000002",   "cycle": "D"},
+        {"name": "원/유로 환율/일별",             "stat_code": "731Y001", "item_code": "0000003",   "cycle": "D"},
+        {"name": "원/위안 환율/일별",             "stat_code": "731Y001", "item_code": "0000053",   "cycle": "D"},
+        {"name": "외환보유액/분기별",             "stat_code": "732Y001", "item_code": "99",   "cycle": "Q"}      ]
     },
     {
       "sector": "주요국제금리(단기)",
       "indicators": [
-        {"name": "한국",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "KOR",   "cycle": "Q"},
-        {"name": "미국",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "USA",   "cycle": "Q"},
-        {"name": "중국",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "CHN",   "cycle": "Q"},
-        {"name": "일본",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "JPN",   "cycle": "Q"},
-        {"name": "독일",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "DEU",   "cycle": "Q"},
-        {"name": "영국",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "GBR",   "cycle": "Q"}
+        {"name": "한국/분기별",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "KOR",   "cycle": "Q"},
+        {"name": "미국/분기별",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "USA",   "cycle": "Q"},
+        {"name": "중국/분기별",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "CHN",   "cycle": "Q"},
+        {"name": "일본/분기별",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "JPN",   "cycle": "Q"},
+        {"name": "독일/분기별",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "DEU",   "cycle": "Q"},
+        {"name": "영국/분기별",             "stat_code": "902Y023", "item_code1" : "IR3TIB", "item_code2": "GBR",   "cycle": "Q"}
       ]
     },
     {
       "sector": "주요국제금리(장기)",
       "indicators": [
-        {"name": "한국",              "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "KOR",   "cycle": "Q"},
-        {"name": "미국",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "USA",   "cycle": "Q"},
-        {"name": "중국",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "CHN",   "cycle": "Q"},
-        {"name": "일본",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "JPN",   "cycle": "Q"},
-        {"name": "독일",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "DEU",   "cycle": "Q"},
-        {"name": "영국",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "GBR",   "cycle": "Q"}
+        {"name": "한국/분기별",              "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "KOR",   "cycle": "Q"},
+        {"name": "미국/분기별",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "USA",   "cycle": "Q"},
+        {"name": "중국/분기별",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "CHN",   "cycle": "Q"},
+        {"name": "일본/분기별",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "JPN",   "cycle": "Q"},
+        {"name": "독일/분기별",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "DEU",   "cycle": "Q"},
+        {"name": "영국/분기별",             "stat_code": "902Y023", "item_code1" : "IRLT", "item_code2": "GBR",   "cycle": "Q"}
       ]
     },
     {
       "sector": "주요국 주가지수",
       "indicators": [
-        {"name": "한국",              "stat_code": "902Y002", "item_code": "KOR",   "cycle": "Q"},
-        {"name": "미국",             "stat_code": "902Y002", "item_code": "USA",   "cycle": "Q"},
-        {"name": "중국",             "stat_code": "902Y002", "item_code": "CHN",   "cycle": "Q"},
-        {"name": "일본",             "stat_code": "902Y002", "item_code": "JPN",   "cycle": "Q"},
-        {"name": "독일",             "stat_code": "902Y002", "item_code": "DEU",   "cycle": "Q"},
-        {"name": "영국",             "stat_code": "902Y002", "item_code": "GBR",   "cycle": "Q"}
+        {"name": "한국/분기별",              "stat_code": "902Y002", "item_code": "KOR",   "cycle": "Q"},
+        {"name": "미국/분기별",             "stat_code": "902Y002", "item_code": "USA",   "cycle": "Q"},
+        {"name": "중국/분기별",             "stat_code": "902Y002", "item_code": "CHN",   "cycle": "Q"},
+        {"name": "일본/분기별",             "stat_code": "902Y002", "item_code": "JPN",   "cycle": "Q"},
+        {"name": "독일/분기별",             "stat_code": "902Y002", "item_code": "DEU",   "cycle": "Q"},
+        {"name": "영국/분기별",             "stat_code": "902Y002", "item_code": "GBR",   "cycle": "Q"}
       ]
     },
     {
       "sector": "가계",
       "indicators": [
-        {"name": "가계대출잔액",                  "stat_code": "181Y002", "item_code1": "0000",      "cycle": "Q"},
-        {"name": "주택담보대출잔액",            "stat_code": "181Y002", "item_code1": "F001",       "cycle": "Q"},
-        {"name": "개인신용카드사용액",       "stat_code": "601Y003", "item_code": "201000",       "cycle": "M"},
-        {"name": "가구당월평균소득_1인 이상(명목)",         "stat_code": "901Y116", "item_code1" : "1", "item_code2" : "I36D",       "cycle": "Q"},
-        {"name": "가구당월평균소득_1인 이상(실질)",         "stat_code": "901Y116", "item_code1" : "2", "item_code2" : "I36D",       "cycle": "Q"},
-        {"name": "평균소비성향_1인 이상(명목)",         "stat_code": "901Y116", "item_code1" : "1", "item_code2" : "I36W",       "cycle": "Q"},
-        {"name": "평균소비성향_1인 이상(실질)",         "stat_code": "901Y116", "item_code1" : "2", "item_code2" : "I36W",       "cycle": "Q"},
-        {"name": "가구당월평균소득_2인 이상(명목)",         "stat_code": "901Y117", "item_code1" : "1", "item_code2": "I36D",       "cycle": "Q"},
-        {"name": "가구당월평균소득_2인 이상(실질)",         "stat_code": "901Y117", "item_code1" : "2", "item_code2": "I36D",       "cycle": "Q"},
-        {"name": "평균소비성향_2인 이상(명목)",         "stat_code": "901Y116", "item_code1" : "1", "item_code2" : "I36W",       "cycle": "Q"},
-        {"name": "평균소비성향_2인 이상(실질)",         "stat_code": "901Y116", "item_code1" : "2", "item_code2" : "I36W",       "cycle": "Q"},
-        {"name": "지니계수",                 "stat_code": "901Y112", "item_code1": "I38A","item_code2": "10",       "cycle": "A"}
+        {"name": "가계대출잔액/분기별",                  "stat_code": "181Y002", "item_code1": "0000",      "cycle": "Q"},
+        {"name": "주택담보대출잔액/분기별",            "stat_code": "181Y002", "item_code1": "F001",       "cycle": "Q"},
+        {"name": "개인신용카드사용액/월별",       "stat_code": "601Y003", "item_code": "201000",       "cycle": "M"},
+        {"name": "가구당월평균소득_1인 이상(명목)/분기별",         "stat_code": "901Y116", "item_code1" : "1", "item_code2" : "I36D",       "cycle": "Q"},
+        {"name": "가구당월평균소득_1인 이상(실질)/분기별",         "stat_code": "901Y116", "item_code1" : "2", "item_code2" : "I36D",       "cycle": "Q"},
+        {"name": "평균소비성향_1인 이상(명목)/분기별",         "stat_code": "901Y116", "item_code1" : "1", "item_code2" : "I36W",       "cycle": "Q"},
+        {"name": "평균소비성향_1인 이상(실질)/분기별",         "stat_code": "901Y116", "item_code1" : "2", "item_code2" : "I36W",       "cycle": "Q"},
+        {"name": "가구당월평균소득_2인 이상(명목)/분기별",         "stat_code": "901Y117", "item_code1" : "1", "item_code2": "I36D",       "cycle": "Q"},
+        {"name": "가구당월평균소득_2인 이상(실질)/분기별",         "stat_code": "901Y117", "item_code1" : "2", "item_code2": "I36D",       "cycle": "Q"},
+        {"name": "평균소비성향_2인 이상(명목)/분기별",         "stat_code": "901Y116", "item_code1" : "1", "item_code2" : "I36W",       "cycle": "Q"},
+        {"name": "평균소비성향_2인 이상(실질)/분기별",         "stat_code": "901Y116", "item_code1" : "2", "item_code2" : "I36W",       "cycle": "Q"},
+        {"name": "지니계수/연도별",                 "stat_code": "901Y112", "item_code1": "I38A","item_code2": "10",       "cycle": "A"}
       ]
     },
     {
       "sector": "통화/조세",
       "indicators": [
-        {"name": "M1(협의통화)",                  "stat_code": "161Y001", "item_code": "BBLS00",      "cycle": "M"},
-        {"name": "LF(금융기관 유동성)",            "stat_code": "171Y003", "item_code": "LAS0000",       "cycle": "M"},
-        {"name": "M2(광의통화,평잔)",         "stat_code": "161Y013", "item_code": "BBJA00",    "cycle": "M"},
-        {"name": "통합재정수지",         "stat_code": "901Y013", "item_code": "A",    "cycle": "M"}
+        {"name": "M1(협의통화)/월별",                  "stat_code": "161Y001", "item_code": "BBLS00",      "cycle": "M"},
+        {"name": "LF(금융기관 유동성)/월별",            "stat_code": "171Y003", "item_code": "LAS0000",       "cycle": "M"},
+        {"name": "M2(광의통화,평잔)/월별",         "stat_code": "161Y013", "item_code": "BBJA00",    "cycle": "M"},
+        {"name": "통합재정수지/월별",         "stat_code": "901Y013", "item_code": "A",    "cycle": "M"}
       ]
     },
     {
       "sector": "주식·채권시장",
       "indicators": [
-        {"name": "코스피지수",               "stat_code": "802Y001", "item_code": "0001000",   "cycle": "D"},
-        {"name": "코스피_시가총액",               "stat_code": "802Y001", "item_code": "0183000",   "cycle": "D"},
-        {"name": "코스피_거래량",               "stat_code": "802Y001", "item_code": "0089000",   "cycle": "D"},
-        {"name": "코스피_거래대금",               "stat_code": "802Y001", "item_code": "0088000",   "cycle": "D"},
-        {"name": "외국인 순매수(KOSPI)",       "stat_code": "802Y001", "item_code": "0030000",   "cycle": "D"},
-        {"name": "채권거래대금",             "stat_code": "901Y120", "item_code_1": "AMT","item_code_2": "020101",         "cycle": "M"}
+        {"name": "코스피지수/일별",               "stat_code": "802Y001", "item_code": "0001000",   "cycle": "D"},
+        {"name": "코스피_시가총액/일별",               "stat_code": "802Y001", "item_code": "0183000",   "cycle": "D"},
+        {"name": "코스피_거래량/일별",               "stat_code": "802Y001", "item_code": "0089000",   "cycle": "D"},
+        {"name": "코스피_거래대금/일별",               "stat_code": "802Y001", "item_code": "0088000",   "cycle": "D"},
+        {"name": "외국인 순매수(KOSPI)/일별",       "stat_code": "802Y001", "item_code": "0030000",   "cycle": "D"},
+        {"name": "채권거래대금/월별",             "stat_code": "901Y120", "item_code_1": "AMT","item_code_2": "020101",         "cycle": "M"}
               ]
     },
     {
       "sector": "국민계정·GDP",
       "indicators": [
-        {"name": "경제성장률",               "stat_code": "902Y015", "item_code": "KOR",     "cycle": "Q"},
-        {"name": "GDP",                      "stat_code": "902Y016", "item_code": "KOR",     "cycle": "A"},
-        {"name": "GDP 디플레이터",                      "stat_code": "200Y111", "item_code": "1400",     "cycle": "A"},
-        {"name": "1인당GDP",                      "stat_code": "902Y018", "item_code": "KOR",     "cycle": "A"},
-        {"name": "GNI",                 "stat_code": "902Y017", "item_code": "KOR",     "cycle": "A"},
-        {"name": "민간소비증감률Q",           "stat_code": "200Y102", "item_code": "10122",     "cycle": "Q"},
-        {"name": "정부소비증감률Q",           "stat_code": "200Y102", "item_code": "10128",     "cycle": "Q"},
-        {"name": "설비투자증감률Q",           "stat_code": "200Y102", "item_code": "10123",     "cycle": "Q"},
-        {"name": "건설투자증감률Q",           "stat_code": "200Y102", "item_code": "10124",     "cycle": "Q"},
-        {"name": "재화의 수출 증감률Q",       "stat_code": "200Y102", "item_code": "10125",     "cycle": "Q"},
-        {"name": "가계총저축Q",                 "stat_code": "200Y102", "item_code": "7016",     "cycle": "Q"},
-        {"name": "국내총투자율Q",             "stat_code": "200Y102", "item_code": "40102",     "cycle": "Q"},
+        {"name": "경제성장률/분기별",               "stat_code": "902Y015", "item_code": "KOR",     "cycle": "Q"},
+        {"name": "GDP/연도별",                      "stat_code": "902Y016", "item_code": "KOR",     "cycle": "A"},
+        {"name": "GDP 디플레이터/연도별",                      "stat_code": "200Y111", "item_code": "1400",     "cycle": "A"},
+        {"name": "1인당GDP/연도별",                      "stat_code": "902Y018", "item_code": "KOR",     "cycle": "A"},
+        {"name": "GNI/연도별",                 "stat_code": "902Y017", "item_code": "KOR",     "cycle": "A"},
+        {"name": "민간소비증감률/분기별",           "stat_code": "200Y102", "item_code": "10122",     "cycle": "Q"},
+        {"name": "정부소비증감률/분기별",           "stat_code": "200Y102", "item_code": "10128",     "cycle": "Q"},
+        {"name": "설비투자증감률/분기별",           "stat_code": "200Y102", "item_code": "10123",     "cycle": "Q"},
+        {"name": "건설투자증감률/분기별",           "stat_code": "200Y102", "item_code": "10124",     "cycle": "Q"},
+        {"name": "재화의 수출 증감률/분기별",       "stat_code": "200Y102", "item_code": "10125",     "cycle": "Q"},
+        {"name": "가계총저축/분기별",                 "stat_code": "200Y102", "item_code": "7016",     "cycle": "Q"},
+        {"name": "국내총투자율/분기별",             "stat_code": "200Y102", "item_code": "40102",     "cycle": "Q"},
 
-        {"name": "민간최종소비지출",           "stat_code": "200Y101", "item_code": "6010101",     "cycle": "A"},
-        {"name": "정부최종소비지출",           "stat_code": "200Y101", "item_code": "6010102",     "cycle": "A"},
-        {"name": "설비투자증감률A",           "stat_code": "200Y101", "item_code": "30103",     "cycle": "A"},
-        {"name": "건설투자증감률A",           "stat_code": "200Y101", "item_code": "3010201",     "cycle": "A"},
-        {"name": "재화의 수출 증감률A",       "stat_code": "200Y101", "item_code": "30105",     "cycle": "A"},
-        {"name": "가계총저축A",                 "stat_code": "200Y101", "item_code": "7010703",     "cycle": "A"},
-        {"name": "국내총투자율A",             "stat_code": "200Y101", "item_code": "8010200",     "cycle": "A"}
+        {"name": "민간최종소비지출/연도별",           "stat_code": "200Y101", "item_code": "6010101",     "cycle": "A"},
+        {"name": "정부최종소비지출/연도별",           "stat_code": "200Y101", "item_code": "6010102",     "cycle": "A"},
+        {"name": "설비투자증감률/연도별",           "stat_code": "200Y101", "item_code": "30103",     "cycle": "A"},
+        {"name": "건설투자증감률/연도별",           "stat_code": "200Y101", "item_code": "3010201",     "cycle": "A"},
+        {"name": "재화의 수출 증감률/연도별",       "stat_code": "200Y101", "item_code": "30105",     "cycle": "A"},
+        {"name": "가계총저축/연도별",                 "stat_code": "200Y101", "item_code": "7010703",     "cycle": "A"},
+        {"name": "국내총투자율/연도별",             "stat_code": "200Y101", "item_code": "8010200",     "cycle": "A"}
       ]
     },
     {
       "sector": "산업생산",
       "indicators": [
-        {"name": "전산업생산지수",         "stat_code": "901Y033", "item_code1" : "A00", "item_code2" : "1",       "cycle": "A"},
-        {"name": "광공업생산지수",         "stat_code": "901Y033", "item_code1" : "AB00", "item_code2" : "1",       "cycle": "A"},
-        {"name": "제조업가동률지수",         "stat_code": "901Y035", "item_code1" : "I32A", "item_code2" : "I11B",       "cycle": "A"},
-        {"name": "서비스업생산지수",         "stat_code": "901Y033", "item_code1" : "AC00", "item_code2" : "1",       "cycle": "A"},
-        {"name": "건설업생산지수",         "stat_code": "901Y033", "item_code1" : "AD00", "item_code2" : "1",       "cycle": "A"}
+        {"name": "전산업생산지수/연도별",         "stat_code": "901Y033", "item_code1" : "A00", "item_code2" : "1",       "cycle": "A"},
+        {"name": "광공업생산지수/연도별",         "stat_code": "901Y033", "item_code1" : "AB00", "item_code2" : "1",       "cycle": "A"},
+        {"name": "제조업가동률지수/연도별",         "stat_code": "901Y035", "item_code1" : "I32A", "item_code2" : "I11B",       "cycle": "A"},
+        {"name": "서비스업생산지수/연도별",         "stat_code": "901Y033", "item_code1" : "AC00", "item_code2" : "1",       "cycle": "A"},
+        {"name": "건설업생산지수/연도별",         "stat_code": "901Y033", "item_code1" : "AD00", "item_code2" : "1",       "cycle": "A"}
       ]
     },
     {
       "sector": "소비·투자",
       "indicators": [
-        {"name": "설비투자지수Q",             "stat_code": "901Y066", "item_code": "I15A",         "cycle": "Q"},
-        {"name": "설비투자지수A",             "stat_code": "901Y066", "item_code": "I15A",         "cycle": "A"},
-        {"name": "국내건설수주액Q",               "stat_code": "901Y020", "item_code": "I42A",         "cycle": "Q"},
-        {"name": "국내건설수주액A",               "stat_code": "901Y020", "item_code": "I42A",         "cycle": "A"},
-        {"name": "발전전력량",               "stat_code": "901Y071", "item_code": "AD5AA",         "cycle": "A"}
+        {"name": "설비투자지수/분기별",             "stat_code": "901Y066", "item_code": "I15A",         "cycle": "Q"},
+        {"name": "설비투자지수/연도별",             "stat_code": "901Y066", "item_code": "I15A",         "cycle": "A"},
+        {"name": "국내건설수주액/분기별",               "stat_code": "901Y020", "item_code": "I42A",         "cycle": "Q"},
+        {"name": "국내건설수주액/연도별",               "stat_code": "901Y020", "item_code": "I42A",         "cycle": "A"},
+        {"name": "발전전력량/연도별",               "stat_code": "901Y071", "item_code": "AD5AA",         "cycle": "A"}
       ]
     },
     {
       "sector": "경기·심리지수",
       "indicators": [
-        {"name": "동행지수순환변동치",       "stat_code": "901Y067", "item_code": "I16D",      "cycle": "M"},
-        {"name": "선행지수순환변동치",       "stat_code": "901Y067", "item_code": "I16E",      "cycle": "M"},
-        {"name": "기업심리지수실적",   "stat_code": "512Y013", "item_code1": "99988","item_code2": "AX",        "cycle": "M"},
-        {"name": "소비자심리지수",           "stat_code": "511Y002", "item_code": "FME",       "cycle": "M"},
-        {"name": "경제심리지수",             "stat_code": "513Y001", "item_code": "E1000",       "cycle": "M"}
+        {"name": "동행지수순환변동치/월별",       "stat_code": "901Y067", "item_code": "I16D",      "cycle": "M"},
+        {"name": "선행지수순환변동치/월별",       "stat_code": "901Y067", "item_code": "I16E",      "cycle": "M"},
+        {"name": "기업심리지수실적/월별",   "stat_code": "512Y013", "item_code1": "99988","item_code2": "AX",        "cycle": "M"},
+        {"name": "소비자심리지수/월별",           "stat_code": "511Y002", "item_code": "FME",       "cycle": "M"},
+        {"name": "경제심리지수/월별",             "stat_code": "513Y001", "item_code": "E1000",       "cycle": "M"}
       ]
     },
     {
       "sector": "고용·노동",
       "indicators": [
-        {"name": "실업률Q",                   "stat_code": "901Y027", "item_code": "I61BC",       "cycle": "Q"},
-        {"name": "실업자Q",                   "stat_code": "901Y027", "item_code": "I61BB",       "cycle": "Q"},
-        {"name": "고용률Q",                   "stat_code": "901Y027", "item_code": "I61E",       "cycle": "Q"},
-        {"name": "경제활동인구Q",             "stat_code": "901Y027", "item_code": "I61D",       "cycle": "Q"},
-        {"name": "취업자수Q",                 "stat_code": "901Y027", "item_code": "I61BA",       "cycle": "Q"},
-        {"name": "실업률A",                   "stat_code": "901Y027", "item_code": "I61BC",       "cycle": "A"},
-        {"name": "실업자A",                   "stat_code": "901Y027", "item_code": "I61BB",       "cycle": "A"},
-        {"name": "고용률A",                   "stat_code": "901Y027", "item_code": "I61E",       "cycle": "A"},
-        {"name": "경제활동인구A",             "stat_code": "901Y027", "item_code": "I61D",       "cycle": "A"},
-        {"name": "취업자수A",                 "stat_code": "901Y027", "item_code": "I61BA",       "cycle": "A"},
-        {"name": "시간당명목임금지수Q",       "stat_code": "901Y102", "item_code": "A10001",         "cycle": "Q"},
-        {"name": "노동생산성지수Q",           "stat_code": "901Y107", "item_code1": "A", "item_code2": "I70D",         "cycle": "Q"},
-        {"name": "단위노동비용지수Q",         "stat_code": "901Y088", "item_code": "TOT",         "cycle": "Q"},
-        {"name": "시간당명목임금지수A",       "stat_code": "901Y102", "item_code": "A10001",         "cycle": "Q"},
-        {"name": "노동생산성지수A",           "stat_code": "901Y107", "item_code1": "A", "item_code2": "I70D",         "cycle": "Q"},
-        {"name": "단위노동비용지수A",         "stat_code": "901Y088", "item_code": "TOT",         "cycle": "Q"}
+        {"name": "실업률/분기별",                   "stat_code": "901Y027", "item_code": "I61BC",       "cycle": "Q"},
+        {"name": "실업자/분기별",                   "stat_code": "901Y027", "item_code": "I61BB",       "cycle": "Q"},
+        {"name": "고용률/분기별",                   "stat_code": "901Y027", "item_code": "I61E",       "cycle": "Q"},
+        {"name": "경제활동인구/분기별",             "stat_code": "901Y027", "item_code": "I61D",       "cycle": "Q"},
+        {"name": "취업자수/분기별",                 "stat_code": "901Y027", "item_code": "I61BA",       "cycle": "Q"},
+        {"name": "실업률/연도별",                   "stat_code": "901Y027", "item_code": "I61BC",       "cycle": "A"},
+        {"name": "실업자/연도별",                   "stat_code": "901Y027", "item_code": "I61BB",       "cycle": "A"},
+        {"name": "고용률/연도별",                   "stat_code": "901Y027", "item_code": "I61E",       "cycle": "A"},
+        {"name": "경제활동인구/연도별",             "stat_code": "901Y027", "item_code": "I61D",       "cycle": "A"},
+        {"name": "취업자수/연도별",                 "stat_code": "901Y027", "item_code": "I61BA",       "cycle": "A"},
+        {"name": "시간당명목임금지수/분기별",       "stat_code": "901Y102", "item_code": "A10001",         "cycle": "Q"},
+        {"name": "노동생산성지수/분기별",           "stat_code": "901Y107", "item_code1": "A", "item_code2": "I70D",         "cycle": "Q"},
+        {"name": "단위노동비용지수/분기별",         "stat_code": "901Y088", "item_code": "TOT",         "cycle": "Q"},
+        {"name": "시간당명목임금지수/연도별",       "stat_code": "901Y102", "item_code": "A10001",         "cycle": "Q"},
+        {"name": "노동생산성지수/연도별",           "stat_code": "901Y107", "item_code1": "A", "item_code2": "I70D",         "cycle": "Q"},
+        {"name": "단위노동비용지수/연도별",         "stat_code": "901Y088", "item_code": "TOT",         "cycle": "Q"}
       ]
     },
     {
       "sector": "국제수지",
       "indicators": [
-        {"name": "경상수지Q",                 "stat_code": "301Y013", "item_code": "000000",    "cycle": "Q"},
-        {"name": "상품수지Q",                 "stat_code": "301Y013", "item_code": "100000",    "cycle": "Q"},
-        {"name": "서비스수지Q",                 "stat_code": "301Y013", "item_code": "200000",    "cycle": "Q"},
-        {"name": "본원소득수지Q",                 "stat_code": "301Y013", "item_code": "300000",    "cycle": "Q"},
-        {"name": "이전소득수지Q",                 "stat_code": "301Y013", "item_code": "400000",    "cycle": "Q"},
-        {"name": "경상수지A",                 "stat_code": "301Y013", "item_code": "000000",    "cycle": "A"},
-        {"name": "상품수지A",                 "stat_code": "301Y013", "item_code": "100000",    "cycle": "A"},
-        {"name": "서비스수지A",                 "stat_code": "301Y013", "item_code": "200000",    "cycle": "A"},
-        {"name": "본원소득수지A",                 "stat_code": "301Y013", "item_code": "300000",    "cycle": "A"},
-        {"name": "이전소득수지A",                 "stat_code": "301Y013", "item_code": "400000",    "cycle": "A"},
+        {"name": "경상수지/분기별",                 "stat_code": "301Y013", "item_code": "000000",    "cycle": "Q"},
+        {"name": "상품수지/분기별",                 "stat_code": "301Y013", "item_code": "100000",    "cycle": "Q"},
+        {"name": "서비스수지/분기별",                 "stat_code": "301Y013", "item_code": "200000",    "cycle": "Q"},
+        {"name": "본원소득수지/분기별",                 "stat_code": "301Y013", "item_code": "300000",    "cycle": "Q"},
+        {"name": "이전소득수지/분기별",                 "stat_code": "301Y013", "item_code": "400000",    "cycle": "Q"},
+        {"name": "경상수지/연도별",                 "stat_code": "301Y013", "item_code": "000000",    "cycle": "A"},
+        {"name": "상품수지/연도별",                 "stat_code": "301Y013", "item_code": "100000",    "cycle": "A"},
+        {"name": "서비스수지/연도별",                 "stat_code": "301Y013", "item_code": "200000",    "cycle": "A"},
+        {"name": "본원소득수지/연도별",                 "stat_code": "301Y013", "item_code": "300000",    "cycle": "A"},
+        {"name": "이전소득수지/연도별",                 "stat_code": "301Y013", "item_code": "400000",    "cycle": "A"},
 
-        {"name": "수출금액지수Q",             "stat_code": "403Y001", "item_code": "*AA",         "cycle": "Q"},
-        {"name": "수입금액지수Q",             "stat_code": "403Y002", "item_code": "*AA",         "cycle": "Q"},
-        {"name": "수출금액지수A",             "stat_code": "403Y001", "item_code": "*AA",         "cycle": "A"},
-        {"name": "수입금액지수A",             "stat_code": "403Y002", "item_code": "*AA",         "cycle": "A"}
+        {"name": "수출금액지수/분기별",             "stat_code": "403Y001", "item_code": "*AA",         "cycle": "Q"},
+        {"name": "수입금액지수/분기별",             "stat_code": "403Y002", "item_code": "*AA",         "cycle": "Q"},
+        {"name": "수출금액지수/연도별",             "stat_code": "403Y001", "item_code": "*AA",         "cycle": "A"},
+        {"name": "수입금액지수/연도별",             "stat_code": "403Y002", "item_code": "*AA",         "cycle": "A"}
       ]
     },
     {
       "sector": "외환·대외",
       "indicators": [
-        {"name": "외환보유액",               "stat_code": "732Y001", "item_code": "99",         "cycle": "A"},
-        {"name": "대외채무",                 "stat_code": "311Y004", "item_code": "A000000",    "cycle": "A"},
-        {"name": "대외채권",                 "stat_code": "311Y005", "item_code": "B000000",    "cycle": "A"}
+        {"name": "외환보유액/연도별",               "stat_code": "732Y001", "item_code": "99",         "cycle": "A"},
+        {"name": "대외채무/연도별",                 "stat_code": "311Y004", "item_code": "A000000",    "cycle": "A"},
+        {"name": "대외채권/연도별",                 "stat_code": "311Y005", "item_code": "B000000",    "cycle": "A"}
       ]
     },
     {
       "sector": "물가",
       "indicators": [
-        {"name": "소비자물가지수",           "stat_code": "901Y009", "item_code": "0",         "cycle": "A"},
-        {"name": "생산자물가지수",           "stat_code": "404Y014", "item_code": "*AA",        "cycle": "A"},
-        {"name": "수출물가지수",             "stat_code": "402Y014", "item_code": "*AA",         "cycle": "A"},
-        {"name": "수입물가지수",             "stat_code": "401Y015", "item_code": "*AA",         "cycle": "A"}
+        {"name": "소비자물가지수/연도별",           "stat_code": "901Y009", "item_code": "0",         "cycle": "A"},
+        {"name": "생산자물가지수/연도별",           "stat_code": "404Y014", "item_code": "*AA",        "cycle": "A"},
+        {"name": "수출물가지수/연도별",             "stat_code": "402Y014", "item_code": "*AA",         "cycle": "A"},
+        {"name": "수입물가지수/연도별",             "stat_code": "401Y015", "item_code": "*AA",         "cycle": "A"}
       ]
     },
     {
       "sector": "부동산",
       "indicators": [
-        {"name": "주택매매가격지수",         "stat_code": "901Y062", "item_code": "P63A",     "cycle": "M"},
-        {"name": "주택전세가격지수",         "stat_code": "901Y063", "item_code": "P64A",     "cycle": "M"},
-        {"name": "지가변동률M",               "stat_code": "901Y064", "item_code": "P65A",     "cycle": "M"}
+        {"name": "주택매매가격지수/월별",         "stat_code": "901Y062", "item_code": "P63A",     "cycle": "M"},
+        {"name": "주택전세가격지수/월별",         "stat_code": "901Y063", "item_code": "P64A",     "cycle": "M"},
+        {"name": "지가변동률/월별",               "stat_code": "901Y064", "item_code": "P65A",     "cycle": "M"}
       ]
     },
     {
       "sector": "원자재",
       "indicators": [
-        {"name": "WTI_Q",                  "stat_code": "902Y003", "item_code": "010101",       "cycle": "Q"},
-        {"name": "WTI_A",                  "stat_code": "902Y003", "item_code": "010101",       "cycle": "A"},
-        {"name": "천연가스Q",                  "stat_code": "902Y003", "item_code": "010201",       "cycle": "Q"},
-        {"name": "천연가스A",                  "stat_code": "902Y003", "item_code": "010201",       "cycle": "A"},
-        {"name": "금Q",                       "stat_code": "902Y003", "item_code": "040101",       "cycle": "Q"},
-        {"name": "금A",                       "stat_code": "902Y003", "item_code": "040101",       "cycle": "A"},
-        {"name": "구리Q",                       "stat_code": "902Y003", "item_code": "040202",       "cycle": "Q"},
-        {"name": "구리A",                       "stat_code": "902Y003", "item_code": "040202",       "cycle": "A"}
+        {"name": "WTI/분기별",                  "stat_code": "902Y003", "item_code": "010101",       "cycle": "Q"},
+        {"name": "WTI/연도별",                  "stat_code": "902Y003", "item_code": "010101",       "cycle": "A"},
+        {"name": "천연가스/분기별",                  "stat_code": "902Y003", "item_code": "010201",       "cycle": "Q"},
+        {"name": "천연가스/연도별",                  "stat_code": "902Y003", "item_code": "010201",       "cycle": "A"},
+        {"name": "금/분기별",                       "stat_code": "902Y003", "item_code": "040101",       "cycle": "Q"},
+        {"name": "금/연도별",                       "stat_code": "902Y003", "item_code": "040101",       "cycle": "A"},
+        {"name": "구리/분기별",                       "stat_code": "902Y003", "item_code": "040202",       "cycle": "Q"},
+        {"name": "구리/연도별",                       "stat_code": "902Y003", "item_code": "040202",       "cycle": "A"}
       ]
     }
   ]
