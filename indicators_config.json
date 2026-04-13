@@ -8,7 +8,6 @@
         {"name": "통안증권수익률(364일)",     "stat_code": "817Y002", "item_code": "010400001", "cycle": "D"},
         {"name": "국고채수익률(3년)",         "stat_code": "817Y002", "item_code": "010200000", "cycle": "D"},
         {"name": "국고채수익률(5년)",         "stat_code": "817Y002", "item_code": "010200001", "cycle": "D"},
-        {"name": "회사채수익률(3년,AA-)",     "stat_code": "817Y002", "item_code": "010400000", "cycle": "D"},
         {"name": "회사채수익률(3년,AA-)",     "stat_code": "817Y002", "item_code": "010400000", "cycle": "D"}
       ]
     },

@@ -20,15 +20,14 @@ def get_cycle_dates(cycle):
     else:  # A
         return "2015", str(today.year)
 
-def fetch(api_key, stat_code, i1, i2, i3, cycle):
+def fetch(api_key, stat_code, i1, i2, cycle):
     start, end = get_cycle_dates(cycle)
 
     # 있는 코드만 붙이기
     item_part = i1 if i1 else "?"
     if i2:
         item_part += f"/{i2}"
-    if i3:
-        item_part += f"/{i3}"
+
 
     url = (
         f"https://ecos.bok.or.kr/api/StatisticSearch/"
@@ -85,15 +84,14 @@ def main():
         for ind in sec["indicators"]:
             print(f"  → {ind['name']} ...", end=" ", flush=True)
 
-            # item_code1/2/3 우선, 없으면 item_code fallback
+            # item_code1/2 우선, 없으면 item_code fallback
             i1 = ind.get("item_code1", ind.get("item_code", ""))
             i2 = ind.get("item_code2", "")
-            i3 = ind.get("item_code3", "")
 
-            # DB 저장용 item_code 문자열 (i1/i2/i3 조합)
-            item_code_str = "/".join(filter(None, [i1, i2, i3]))
+            # DB 저장용 item_code 문자열 (i1/i2 조합)
+            item_code_str = "/".join(filter(None, [i1, i2]))
 
-            df = fetch(API_KEY, ind["stat_code"], i1, i2, i3, ind["cycle"])
+            df = fetch(API_KEY, ind["stat_code"], i1, i2, ind["cycle"])
             cnt = upsert(con, sec["sector"], ind["name"], ind["stat_code"], item_code_str, ind["cycle"], df)
             if cnt > 0:
                 print(f"{cnt}건 저장")
