@@ -1,0 +1,263 @@
+{
+  "sectors": [
+    {
+      "sector": "주요국제금리(단기)",
+      "indicators": [
+        {
+          "name": "한국/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IR3TIB",
+          "item_code2": "KOR",
+          "cycle": "Q"
+        },
+        {
+          "name": "미국/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IR3TIB",
+          "item_code2": "USA",
+          "cycle": "Q"
+        },
+        {
+          "name": "중국/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IR3TIB",
+          "item_code2": "CHN",
+          "cycle": "Q"
+        },
+        {
+          "name": "일본/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IR3TIB",
+          "item_code2": "JPN",
+          "cycle": "Q"
+        },
+        {
+          "name": "독일/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IR3TIB",
+          "item_code2": "DEU",
+          "cycle": "Q"
+        },
+        {
+          "name": "영국/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IR3TIB",
+          "item_code2": "GBR",
+          "cycle": "Q"
+        }
+      ]
+    },
+    {
+      "sector": "주요국제금리(장기)",
+      "indicators": [
+        {
+          "name": "한국/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IRLT",
+          "item_code2": "KOR",
+          "cycle": "Q"
+        },
+        {
+          "name": "미국/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IRLT",
+          "item_code2": "USA",
+          "cycle": "Q"
+        },
+        {
+          "name": "중국/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IRLT",
+          "item_code2": "CHN",
+          "cycle": "Q"
+        },
+        {
+          "name": "일본/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IRLT",
+          "item_code2": "JPN",
+          "cycle": "Q"
+        },
+        {
+          "name": "독일/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IRLT",
+          "item_code2": "DEU",
+          "cycle": "Q"
+        },
+        {
+          "name": "영국/분기별",
+          "stat_code": "902Y023",
+          "item_code1": "IRLT",
+          "item_code2": "GBR",
+          "cycle": "Q"
+        }
+      ]
+    },
+    {
+      "sector": "가계",
+      "indicators": [
+        {
+          "name": "가계대출잔액/분기별",
+          "stat_code": "181Y002",
+          "item_code1": "0000",
+          "item_code2": "",
+          "cycle": "Q"
+        },
+        {
+          "name": "주택담보대출잔액/분기별",
+          "stat_code": "181Y002",
+          "item_code1": "F001",
+          "item_code2": "",
+          "cycle": "Q"
+        },
+        {
+          "name": "가구당월평균소득_1인 이상(명목)/분기별",
+          "stat_code": "901Y116",
+          "item_code1": "1",
+          "item_code2": "I36D",
+          "cycle": "Q"
+        },
+        {
+          "name": "가구당월평균소득_1인 이상(실질)/분기별",
+          "stat_code": "901Y116",
+          "item_code1": "2",
+          "item_code2": "I36D",
+          "cycle": "Q"
+        },
+        {
+          "name": "평균소비성향_1인 이상(명목)/분기별",
+          "stat_code": "901Y116",
+          "item_code1": "1",
+          "item_code2": "I36W",
+          "cycle": "Q"
+        },
+        {
+          "name": "평균소비성향_1인 이상(실질)/분기별",
+          "stat_code": "901Y116",
+          "item_code1": "2",
+          "item_code2": "I36W",
+          "cycle": "Q"
+        },
+        {
+          "name": "가구당월평균소득_2인 이상(명목)/분기별",
+          "stat_code": "901Y117",
+          "item_code1": "1",
+          "item_code2": "I36D",
+          "cycle": "Q"
+        },
+        {
+          "name": "가구당월평균소득_2인 이상(실질)/분기별",
+          "stat_code": "901Y117",
+          "item_code1": "2",
+          "item_code2": "I36D",
+          "cycle": "Q"
+        },
+        {
+          "name": "평균소비성향_2인 이상(명목)/분기별",
+          "stat_code": "901Y116",
+          "item_code1": "1",
+          "item_code2": "I36W",
+          "cycle": "Q"
+        },
+        {
+          "name": "평균소비성향_2인 이상(실질)/분기별",
+          "stat_code": "901Y116",
+          "item_code1": "2",
+          "item_code2": "I36W",
+          "cycle": "Q"
+        },
+        {
+          "name": "지니계수/연도별",
+          "stat_code": "901Y112",
+          "item_code1": "I38A",
+          "item_code2": "10",
+          "cycle": "A"
+        }
+      ]
+    },
+    {
+      "sector": "주식·채권시장",
+      "indicators": [
+        {
+          "name": "채권거래대금/월별",
+          "stat_code": "901Y120",
+          "item_code1": "AMT",
+          "item_code2": "020101",
+          "cycle": "M"
+        }
+      ]
+    },
+    {
+      "sector": "산업생산",
+      "indicators": [
+        {
+          "name": "전산업생산지수/연도별",
+          "stat_code": "901Y033",
+          "item_code1": "A00",
+          "item_code2": "1",
+          "cycle": "A"
+        },
+        {
+          "name": "광공업생산지수/연도별",
+          "stat_code": "901Y033",
+          "item_code1": "AB00",
+          "item_code2": "1",
+          "cycle": "A"
+        },
+        {
+          "name": "제조업가동률지수/연도별",
+          "stat_code": "901Y035",
+          "item_code1": "I32A",
+          "item_code2": "I11B",
+          "cycle": "A"
+        },
+        {
+          "name": "서비스업생산지수/연도별",
+          "stat_code": "901Y033",
+          "item_code1": "AC00",
+          "item_code2": "1",
+          "cycle": "A"
+        },
+        {
+          "name": "건설업생산지수/연도별",
+          "stat_code": "901Y033",
+          "item_code1": "AD00",
+          "item_code2": "1",
+          "cycle": "A"
+        }
+      ]
+    },
+    {
+      "sector": "경기·심리지수",
+      "indicators": [
+        {
+          "name": "기업심리지수실적/월별",
+          "stat_code": "512Y013",
+          "item_code1": "99988",
+          "item_code2": "AX",
+          "cycle": "M"
+        }
+      ]
+    },
+    {
+      "sector": "고용·노동",
+      "indicators": [
+        {
+          "name": "노동생산성지수/분기별",
+          "stat_code": "901Y107",
+          "item_code1": "A",
+          "item_code2": "I70D",
+          "cycle": "Q"
+        },
+        {
+          "name": "노동생산성지수/연도별",
+          "stat_code": "901Y107",
+          "item_code1": "A",
+          "item_code2": "I70D",
+          "cycle": "A"
+        }
+      ]
+    }
+  ]
+}
