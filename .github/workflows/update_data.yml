@@ -1,9 +1,12 @@
-name: 매일 ECOS 데이터 갱신
+name: Update_data_daily
 
 on:
   schedule:
     - cron: '0 0 * * *'   # UTC 00:00 = KST 09:00
   workflow_dispatch:        # 수동 실행 버튼도 활성화
+
+permissions:
+  contents: write
 
 jobs:
   update:
