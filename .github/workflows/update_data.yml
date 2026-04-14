@@ -2,8 +2,11 @@ name: Update_data_daily
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # UTC 00:00 = KST 09:00
-  workflow_dispatch:        # 수동 실행 버튼도 활성화
+    - cron: '0 0 * * *'  # UTC 00:00 = KST 09:00
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   contents: write
@@ -24,15 +27,20 @@ jobs:
       - name: 패키지 설치
         run: pip install requests pandas duckdb
 
-      - name: ECOS 데이터 갱신
+      - name: ECOS 단일코드 데이터 갱신
         env:
           ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
-        run: python fetch_ecos.py
+        run: python fetch_single.py
+
+      - name: ECOS 복합코드 데이터 갱신
+        env:
+          ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
+        run: python fetch_multi.py
 
       - name: DB 변경사항 커밋 & 푸시
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ecos_warehouse.db
+          git add ecos_single.db ecos_multi.db
           git diff --staged --quiet || git commit -m "자동갱신: $(date '+%Y-%m-%d')"
           git push
