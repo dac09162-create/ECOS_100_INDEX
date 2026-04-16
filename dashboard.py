@@ -7,9 +7,9 @@ from datetime import date
 DB_SINGLE = "ecos_single.db"
 DB_MULTI = "ecos_multi.db"
 
-st.set_page_config(page_title="부재중 4통 ECOS 경제지표", page_icon="📊", layout="wide")
-st.title("📊 부재중 4통 ECOS 경제지표")
-st.caption(f"한국은행 ECOS 데이터 | 업데이트: {date.today()}")
+st.set_page_config(page_title="ECOS 경제지표", page_icon="📊", layout="wide")
+st.title("📊 ECOS 경제지표")
+st.caption(f"한국은행 ECOS 데이터 | 업데이트: {date.today()} | By 채원")
 
 @st.cache_data(ttl=3600)
 def get_all_indicators():
